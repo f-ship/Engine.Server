@@ -13,11 +13,6 @@ application {
 }
 
 dependencies {
-//    api(":Utils")
-//    api(":KSP")
-//    api(":Core")
-
-    implementation(libs.logback)
     implementation(libs.ktor.server.core)
     implementation(libs.ktor.server.netty)
     testImplementation(libs.ktor.server.tests.host)
